@@ -1,7 +1,6 @@
 "use client"
 
 import { Hero } from "./sections/home/hero"
-import { Business } from "./sections/home/business"
 import { About } from "./sections/home/about"
 import { SocialProof } from "./sections/home/social-proof"
 import { Contact } from "./sections/home/contact"
@@ -23,7 +22,6 @@ export function HomePage() {
       <div className="relative">
         <Hero />
         <div className="relative space-y-32">
-          <Business />
           <About />
           <SocialProof />
           <Contact />

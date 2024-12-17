@@ -1,7 +1,8 @@
-  <div>
-    {/* Remove any imports like:
-    import { ForFoundersHero } from "@/components/sections/for-founders/hero"
-    import { ForFoundersProcess } from "@/components/sections/for-founders/process"
-    */}
-  </div>
-  {/* Remove any usage of these components in the JSX */} 
+import { HomePage } from "@/components/home-page"
+
+export const dynamic = 'force-static'
+export const revalidate = 3600 // revalidate every hour
+
+export default function Home() {
+  return <HomePage />
+} 

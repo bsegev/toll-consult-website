@@ -1,4 +1,5 @@
 import "./globals.css"
+import { Navigation } from "@/components/navigation"
 
 export const metadata = {
   title: {
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className="bg-background text-foreground antialiased">
+        <Navigation />
         {children}
       </body>
     </html>
