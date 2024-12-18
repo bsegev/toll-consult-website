@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TOLL Legal Consulting Website
+
+A Next.js-based website for legal consulting services.
+
+## Tech Stack
+
+- Next.js 13+ (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Radix UI
 
 ## Getting Started
 
