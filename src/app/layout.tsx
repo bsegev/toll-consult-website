@@ -9,6 +9,18 @@ export const metadata = {
     template: '%s | TOLL Legal Consulting'
   },
   description: 'Legal consulting for startups, law firms, and individuals',
+  icons: {
+    icon: [
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+      },
+      {
+        url: '/toll-consult-favicon.svg',
+        type: 'image/svg+xml',
+      }
+    ]
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
