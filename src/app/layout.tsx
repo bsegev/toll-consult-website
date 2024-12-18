@@ -12,12 +12,15 @@ export const metadata = {
   icons: {
     icon: [
       {
+        rel: 'icon',
         url: '/favicon.ico',
         sizes: 'any',
       },
       {
-        url: '/toll-consult-favicon.svg',
+        rel: 'icon',
+        url: '/toll-consult-faver.svg',
         type: 'image/svg+xml',
+        sizes: '90x90',
       }
     ]
   },
