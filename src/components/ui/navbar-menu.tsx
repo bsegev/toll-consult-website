@@ -90,11 +90,11 @@ export const Menu = ({
             className="relative group hover:opacity-90 transition-opacity"
           >
             <Image 
-              src="/toll-consult_logo_purple.svg"
+              src="/toll-consult_logo_purple.png"
               alt="TOLL Legal Consulting"
               width={120}
               height={52}
-              className="w-auto h-[40px]"
+              className="w-auto h-[40px] transform-gpu"
               priority
             />
           </Link>

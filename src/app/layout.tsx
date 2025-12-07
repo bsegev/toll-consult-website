@@ -2,6 +2,7 @@ import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { cn } from "@/lib/utils"
+import Image from "next/image"
 
 export const metadata = {
   title: {
@@ -13,13 +14,7 @@ export const metadata = {
     icon: [
       {
         rel: 'icon',
-        url: '/favicon.ico',
-        sizes: 'any',
-      },
-      {
-        rel: 'icon',
-        url: '/toll-consult-faver.svg',
-        type: 'image/svg+xml',
+        url: '/toll-consult-favicon.png',
         sizes: '90x90',
       }
     ]
