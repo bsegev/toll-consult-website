@@ -66,7 +66,6 @@ export function PricingProcess() {
                   transition={{ 
                     duration: 2,
                     repeat: Infinity,
-                    ease: "easeInOut"
                   }}
                 >
                   <ArrowRight className="h-8 w-8 text-purple-400/50" />

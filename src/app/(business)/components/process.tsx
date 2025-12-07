@@ -9,7 +9,7 @@ export function Process() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.6, ease: "easeOut" }
+      transition: { duration: 0.6,  }
     }
   }
 
@@ -102,7 +102,6 @@ export function Process() {
                   transition={{ 
                     duration: 2,
                     repeat: Infinity,
-                    ease: "easeInOut"
                   }}
                 >
                   <ArrowRight className="h-8 w-8 text-purple-400/50" />

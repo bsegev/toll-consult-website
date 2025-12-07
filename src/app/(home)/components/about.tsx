@@ -22,7 +22,7 @@ export function About() {
         transition: {
           staggerChildren: 0.2,
           duration: 0.5,
-          ease: "easeOut"
+          
         }
       }
     },
@@ -33,7 +33,7 @@ export function About() {
         y: 0,
         transition: {
           duration: 0.5,
-          ease: "easeOut"
+          
         }
       }
     }
