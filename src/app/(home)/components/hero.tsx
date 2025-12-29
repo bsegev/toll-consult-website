@@ -30,7 +30,7 @@ export function Hero() {
       y: 0,
       transition: {
         duration: 0.8,
-        
+        ease: [0.215, 0.610, 0.355, 1.000] as [number, number, number, number]
       }
     }
   }
@@ -49,6 +49,7 @@ export function Hero() {
       scale: 1.05,
       transition: {
         duration: 0.2,
+        ease: "easeInOut" as const
       }
     }
   }

@@ -2,7 +2,6 @@ import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { cn } from "@/lib/utils"
-import Image from "next/image"
 
 export const metadata = {
   title: {
